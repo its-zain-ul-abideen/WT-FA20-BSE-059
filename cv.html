@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Stylish CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+        }
+
+        .profile-picture {
+            width: 120px;
+            /* Adjust the width as needed */
+            border-radius: 41%;
+            margin: 20px auto;
+            /* Center horizontally and add margin from top */
+            display: block;
+            /* To center using margin:auto */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            filter: grayscale(64%);
+        }
+
+        .profile-description {
+            margin: 40px 0px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-column,
+        .right-column {
+            width: 48%;
+            padding: 10px;
+        }
+
+        .divider {
+            width: 4px;
+            background-color: #555;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 0;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            color: #555;
+        }
+
+        p {
+            margin: 0;
+            color: #777;
+            line-height: 1.3;
+            text-align: justify;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+            color: #777;
+        }
+
+        li {
+            margin: 8px 0px;
+            line-height: 1.4;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 30px;
+        }
+
+        .contact-info p>i {
+            display: inline-block;
+            margin-right: 16px;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            margin-right: 24px;
+        }
+
+        .social-icons i {
+            font-size: 40px;
+            color: #555;
+        }
+
+        /* Added styles for profile, contact, and hobbies headings */
+        .heading {
+            font-size: 20px;
+            font-weight: bold;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .hobbies {
+            font-size: 18px;
+            font-weight: bold;
+            color: #444;
+            margin-top: 20px;
+        }
+
+        .hobbies-list {
+            padding-inline-start: 0px !important;
+    margin: 32px 0px !important;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+        }
+
+        
+
+        .hobbies-list>li>i {
+            display: inline-block;
+            margin-right: 10px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <img src="pf.jpeg" alt="Profile Picture" class="profile-picture">
+
+    <div class="container">
+        <div class="left-column">
+            <h1>Zain Ul Abideen</h1>
+            <p>Web Developer</p>
+
+            <!-- Profile Heading and Description -->
+            <div class="profile-description">
+                <p class="heading">Profile</p>
+                <p>I am a highly skilled and motivated web developer with a passion for creating elegant and responsive
+                    web applications. With a strong foundation in HTML, CSS, and JavaScript, I strive to deliver
+                    high-quality user experiences by combining creativity and technical expertise. I am dedicated to
+                    staying up-to-date with the latest web technologies and trends to continuously improve my skills.
+                </p>
+            </div>
+
+            <!-- Contact Heading and Information -->
+            <div class="contact-info">
+                <p class="heading">Contact</p>
+                <p><i class="fa-regular fa-envelope fa-2xl"></i>Email: ZainUlAbideen@gmail.com</p>
+                <p><i class="fa-solid fa-phone fa-2xl"></i>Phone: (+92) 332 7620325</p>
+                <p><i class="fa-regular fa-address-book fa-2xl"></i>Address: Punjab, Khanewal, Jahanian</p>
+            </div>
+
+            <!-- Hobbies Heading and List -->
+            <div class="hobbies">
+                <p class="heading">Hobbies</p>
+                <ul class="hobbies-list">
+                    <li><i class="fa-solid fa-book fa-xl"></i>Reading</li>
+                    <li><i class="fa-solid fa-terminal fa-xl"></i>Programming</li>
+                    <li><i class="fa-solid fa-plane-departure fa-xl"></i>Traveling</li>
+                </ul>
+            </div>
+
+            <!-- Social Icons -->
+
+        </div>
+        <div class="divider"></div>
+        <div class="right-column">
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <p>COMSATs University Islamabad</p>
+                <p>Bachelor of Science in Software Engineering</p>
+                <p>Graduated: May 2024</p>
+            </div>
+            <div class="section">
+                <h2 class="section-title">Experience</h2>
+                <p>Software Developer - Netsole Company</p>
+                <p>June 2025 - Present</p>
+                <ul>
+                    <li>Developed web applications using HTML, CSS, and JavaScript.</li>
+                    <li>Collaborated with the design team to create user-friendly interfaces.</li>
+                    <li>Implemented new features and fixed bugs in existing software.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Web Design</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/zainulabideen" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/zainulabideen" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/zainulabideen" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://facebook.com/zainulabideen" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+</body>
+
+</html>
